@@ -7,8 +7,8 @@ DMABuffer implementation for communicating between Objective-C and Swift. Needed
                        DESC
   s.homepage         = 'https://github.com/Negawo11/swift-dmabuf'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'USER' => 'USER@example.com' }
-  s.source           = { :git => 'https://github.com/Negawo11/swift-dmabuf', :tag => s.version.to_s }
+  s.author           = { 'USER' => 'negawoansha@gmail.com' }
+  s.source           = { :git => 'https://github.com/Negawo11/swift-dmabuf.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.source_files = 'DMABuf/Classes/**/*'
 end
