@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A simple DMABuf implementation.'
   s.description      = <<-DESC
-A short description of DMABuf.
+DMABuffer implementation for communicating between Objective-C and Swift. Needed to workaround limitation of Objective-C bridging headers not being allowed in frameworks.
                        DESC
   s.homepage         = 'https://github.com/Negawo11/swift-dmabuf'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
