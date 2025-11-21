@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SuuqeDMABuf'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A simple DMABuf implementation.'
   s.description      = <<-DESC
 DMABuffer implementation for communicating between Objective-C and Swift. Needed to workaround limitation of Objective-C bridging headers not being allowed in frameworks.
