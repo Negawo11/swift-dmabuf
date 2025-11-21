@@ -2,10 +2,14 @@
 
 @interface DMABuf : NSObject
 
-+ (void)setBuf:(void *)buf width:(int)width height:(int)height;
++ (void)setBuf:(void *)buf
+          width:(int)width
+         height:(int)height
+    bytesPerRow:(int)bytesPerRow;
 + (void *)buf;
 + (int)width;
 + (int)height;
++ (int)bytesPerRow;
 
 + (void)setFrameChangeCallback:(void (^)(void))callback;
 + (void)emitFrameChangeEvent;
